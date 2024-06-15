@@ -1,10 +1,8 @@
 import React, { useContext } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { MainContext } from "./Context";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 const Nav = () => {
-  const { auth, setAuth, username } = useContext(MainContext);
   const navigate = useNavigate();
 
   return (
